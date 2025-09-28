@@ -1,0 +1,24 @@
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 2rem;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.servidor-item {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+.servidor-item:last-child {
+  border-bottom: none;
+}
